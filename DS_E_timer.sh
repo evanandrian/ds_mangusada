@@ -4,9 +4,9 @@ for (( i=21; i>0; i--)); do
   printf "Jangan di tutup, sedang proses update. Trims as@epic  $i \r"
   wait
 done
-"E:\ds_amc.git\kill_DS.exe" $1 &
+"E:\ds_mangusada.git\kill_DS.exe" $1 &
 git pull
-"E:\ds_amc.git\DesktopService.exe" $1 &
+"E:\ds_mangusada.git\DesktopService.exe" $1 &
 
 start chrome 192.168.1.30/app/Login
 
